@@ -83,6 +83,7 @@
     });
 });
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 // highlight navigation links
 
