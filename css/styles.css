@@ -145,6 +145,10 @@ header.sticky {
   vertical-align: middle;
 }
 
+.active {
+  color: #3498db;
+}
+
 footer {
   padding: 50px 0;
 }
