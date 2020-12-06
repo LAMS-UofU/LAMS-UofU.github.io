@@ -248,12 +248,24 @@ footer {
   width: 50px;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 10px auto;
   background: #e70a0a;
 }
 
 .background-alt {
   background: #f8fbfd;
+}
+
+.robot {
+  margin-bottom: 15px;
+}
+
+.servo {
+  height: 500px;
+}
+
+.pcb {
+  width: 375px;
 }
 
 #lead {
@@ -491,7 +503,7 @@ footer {
 
 #education h2 {
   color: #374054;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .education-block {
