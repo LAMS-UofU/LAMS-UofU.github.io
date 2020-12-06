@@ -5,6 +5,7 @@ body {
   sans-serif;
   font-style: bold;
   font-size: 18px;
+  line-height: 2rem;
 }
 
 body.active {
