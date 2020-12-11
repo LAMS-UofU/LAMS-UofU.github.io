@@ -290,6 +290,28 @@ footer {
   width: 90%;
 }
 
+.crate-container {
+  align-items: center;
+}
+
+.crates {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.crate {
+  align-items: center;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
 #lead {
   position: relative;
   height: 625px;
