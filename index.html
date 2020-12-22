@@ -2,279 +2,680 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LAMS Project</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/zxv7pht.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    
+    <title>LAMS</title>
+    <meta name="description" content="The LIDAR Autonomous Mapping System (LAMS) is a prototype mapping robot device to create a 3D Model for a space." />
+
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#b91d47" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/et-line-icons.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/justified-gallery.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+    <link rel="stylesheet" href="css/bootsnav.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!--[if IE]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+
+<header>
+    <!-- start navigation -->
+    <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
+        <div class="container nav-header-container">
+            <!-- start logo -->
+            <div class="col-auto pl-lg-0">
+                <a href="index.html" title="LAMS" class="logo">
+                    <img class="logo-dark" src="images/nav-lams-logo@1x.png" data-rjs="images/nav-lams-logo@2x.png" alt="LAMS" />
+                    <img class="logo-light default" src="images/nav-lams-logo-light@1x.png" data-rjs="images/nav-lams-logo-light@2x.png" alt="LAMS" />
+                </a>
+            </div>
+            <!-- end logo -->
+            <div class="col accordion-menu pr-0 pr-md-3">
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse-toggle">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation -->
+</header>
+
+<!-- slider section -->
+<section class="p-0 full-screen position-relative wow fadeIn">
+    <div class="opacity-medium bg-extra-dark-gray z-index-0"></div>
+    <div class="container position-relative full-screen">
+        <div class="slider-typography text-center">
+            <div class="slider-text-middle-main">
+                <div class="slider-text-middle">
+                    <h1 class="alt-font text-uppercase text-white-2 font-weight-700 width-75 sm-width-90 mx-auto margin-35px-bottom">
+                        LAMS Capstone Project
+                    </h1>
+                    <span class="text-large text-very-light-gray font-weight-300 width-95 max-auto margin-25px-bottom d-block sm-width-85">
+                        Trent Bennett | Ty Jensen | Kris Wolff
+                    </span>
+                    <div class="social-icon-style-5-light padding-20px-top sm-no-padding-top">
+                        <ul class="margin-20px-tb large-icon">
+                            <li><a class="documentation" href="assets/LAMS_final_report.pdf" target="_blank">
+                                <i class="fa fa-file-alt"></i>
+                                <span></span>
+                            </a></li>
+                            <li><a class="github" href="https://github.com/LAMS-UofU" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span></span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <header class="sticky">
-        <div id="mobile-menu-close">
-            <span>Close</span>
-            <i class="fa fa-times" aria-hidden="true"></i>
+    <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100">
+        <div class="swiper-wrapper">
+            <!-- slider image 1 -->
+            <div class="swiper-slide cover-background full-screen" style="background-image:url('images/slider/image1.png');"></div>
+            <!-- slider image 2 -->
+            <div class="swiper-slide cover-background full-screen" style="background-image:url('images/slider/image3.png');"></div>
+            <!-- slider image 3 -->
+            <div class="swiper-slide cover-background full-screen" style="background-image:url('images/slider/image2.png');"></div>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">ABOUT</a>
-            </li>
-            <li>
-                <a href="#project">PROJECT</a>
-            </li>
-            <li>
-                <a href="#hardware">HARDWARE</a>
-            </li>
-            <li>
-                <a href="#software">SOFTWARE</a>
-            </li>
-            <li>
-                <a href="#demo">DEMO</a>
-            </li>
-        </ul>
-    </header>
+        <div class="swiper-pagination swiper-auto-pagination d-none"></div>
+    </div>
+</section>
+<!-- end slider section-->
 
-    <div id="sections">
-        <div id="lead" class="section">
-            <div id="lead-content">
-                <img class="TB_Logo" src="images/LAMS_logo.png"></img>
-                <h1>LAMS</h1>
-                <h2>University of Utah - Senior Capstone Project</h2>
-                <h2>Trent Bennett   |   Ty Jensen   |   Kris Wolff</h2>
-                <a href="LAMS_final_report.pdf" target="_blank" class="btn-rounded-white">Project Documentation</a>
-            </div>
-
-            <div id="lead-overlay"></div>
-            <div id="lead-down">
-                <span>
-                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                </span>
-            </div>
-        </div>
-
-        <div id="about" class="section">
-            <h2 class="heading">ABOUT LAMS</h2>
-            <div class="container" max-width="900px">
-                <p>
+<!-- start about section -->
+<section id="about" class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-10 mx-auto text-center">
+                <div class="alt-font text-medium-gray margin-15px-bottom text-uppercase md-margin-5px-bottom">
+                    About LAMS
+                </div>
+                <div class="alt-font font-weight-600 text-extra-dark-gray m-0">
                     The LIDAR Autonomous Mapping System (LAMS) is a prototype mapping robot device 
                     to create a 3D Model for a space.  Designed and built from scratch
                     a custom embedded PCB stores the point cloud data from the LIDAR scanner into an SD card (SDHC).
                     Designed and built a custom 3D modeling software to convert the lam files from the SD car, and produce
                     an obj file to use in the 3D viewer tool for a final 3D model image.
-                </p>
-                <br/>
-                <img src="images/BlockU_redweb.jpg" alt="U-Logo">
-            </div>
-        </div>
-
-        <div id="project" class="background-alt section">
-            <h2 class="heading">PROJECT</h2>
-            <div class="container">
-                <iframe src="https://giphy.com/embed/NWAHD9mPpFlvWQfU24" 
-                        width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen
-                        style="box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.08);"></iframe>
-            </div>
-            <div class="container">
-                <div class="cssbox">
-                    <a id="image1" href="#image1">
-                        <img class="cssbox_thumb" src="images/thumbnails/servo_motor.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/servo_motor.jpg"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_next" href="#image2">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image2" href="#image2">
-                        <img class="cssbox_thumb" src="images/thumbnails/servo2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/servo2.jpg"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image1">&lt;</a>
-                    <a class="cssbox_next" href="#image3">&lt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image3" href="#image3">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar1.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lidar1.JPG"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image2">&lt;</a>
-                    <a class="cssbox_next" href="#image4">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image4" href="#image4">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lidar2.jpg"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image3">&lt;</a>
-                    <a class="cssbox_next" href="#image5">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image5" href="#image5">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar3.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/servo2.jpg"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image4">&lt;</a>
-                    <a class="cssbox_next" href="#image6">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image6" href="#image6">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar_side2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lidar_side2.jpg"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image5">&lt;</a>
-                </div>
-            </div>
-        </div>
-        
-        <div id="hardware" class="section">
-            <h2 class="heading">HARDWARE</h2>
-            <div class="container">
-                <iframe src="https://giphy.com/embed/IHjiATRxFbiYmC8Bda" 
-                        width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen 
-                        style="box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.08);"></iframe>
-            </div>
-            <div class="container">
-                <div class="cssbox">
-                    <a id="image7" href="#image7">
-                        <img class="cssbox_thumb" src="images/thumbnails/lams_pcb.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lams_pcb.png"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_next" href="#image8">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image8" href="#image8">
-                        <img class="cssbox_thumb" src="images/thumbnails/pcb.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/pcb.png"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image7">&lt;</a>
-                    <a class="cssbox_next" href="#image8-5">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image8-5" href="#image8-5">
-                        <img class="cssbox_thumb" src="images/thumbnails/PCB_templates-2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/PCB_templates.JPG"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image8">&lt;</a>
-                    <a class="cssbox_next" href="#image9">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image9" href="#image9">
-                        <img class="cssbox_thumb" src="images/thumbnails/embedded1.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/embedded1.JPG"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image8-5">&lt;</a>
-                    <a class="cssbox_next" href="#image10">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image10" href="#image10">
-                        <img class="cssbox_thumb" src="images/thumbnails/embedded2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/embedded_template.JPG"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image9">&lt;</a>
-                </div>
-            </div>  
-        </div>
-
-        <div id="software" class="background-alt section">
-            <h2 class="heading">SOFTWARE</h2>
-            <div class="container">
-                <div class="cssbox">
-                    <a id="image11" href="#image11">
-                        <img class="cssbox_thumb" src="images/thumbnails/3D_viewer.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/3D_viewer.png"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_next" href="#image12">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image12" href="#image12">
-                        <img class="cssbox_thumb" src="images/thumbnails/LAMS 3D_viewer_3views.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/LAMS 3D_viewer_3views.PNG"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image11">&lt;</a>
-                    <a class="cssbox_next" href="#image13">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image13" href="#image13">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar_scan1.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lidar_scan1.png"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image12">&lt;</a>
-                    <a class="cssbox_next" href="#image14">&gt;</a>
-                </div>
-                <div class="cssbox">
-                    <a id="image14" href="#image14">
-                        <img class="cssbox_thumb" src="images/thumbnails/lidar_scan2.jpg" height="300" width="300">
-                        <span class="cssbox_full"><img src="images/lab_scan_complete.png"></span>
-                    </a> 
-                    <a class="cssbox_close" href="#void"></a>
-                    <a class="cssbox_prev" href="#image13">&lt;</a>
-                </div>
-            </div>
-        </div>
-
-        <div id="demo" class="section">
-            <div class="container">
-                <h2 class="heading">DEMO (VIDEO)</h2>
-                <div class="youtube-responsive">
-                    <iframe width="600" height="400" 
-                            src="https://www.youtube.com/embed/mWj6UxMliq8?start=1" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
+</section>
+<!-- end about section -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="year"></span> LAMS - University of Utah <br>
-                        Trent Bennett | Ty Jensen | Kris Wolff
-                    </p>
+<!-- start demo section -->
+<section id="demo" class="parallax wow fadeIn" data-stellar-background-ratio="0.1" style="background-image:url('images/demo-video-placeholder.png');">
+    <div class="opacity-extra-medium bg-black"></div>
+    <div class="container position-relative">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 text-center">
+                <a href="https://youtu.be/mWj6UxMliq8" class="popup-youtube">
+                    <img src="images/icon-play.png" class="width-30" alt="Play" />
+                    <h5 class="alt-font text-white-2">Project Demo Video</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end demo section -->
+
+<!-- start team section heading -->
+<section id="team" 
+         class="wow fadeIn parallax sm-background-image-center padding-nineteen-bottom sm-padding-50px-bottom" 
+         data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 col-md-8 text-center last-paragraph-no-margin">
+                <h5 class="alt-font font-weight-700 text-extra-dark-gray margin-15px-bottom text-uppercase">
+                    Team
+                </h5>
+                <p class="width-90 mx-auto sm-width-100 sm-no-margin-bottom">
+                    Meet the hardworking individuals who created LAMS
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end team section heading -->
+
+<!-- start team section -->
+<section class="wow fadeIn overlap-section pt-0 z-index-5">
+    <div class="container-fluid padding-thirteen-lr lg-padding-six-lr">
+        <div class="row justify-content-center">
+            <!-- start team item -->
+            <div class="col-12 col-lg-3 col-md-6 team-block text-center team-style-1 md-margin-30px-bottom sm-margin-30px-bottom wow fadeInUp">
+                <figure>
+                    <div class="team-image sm-width-100">
+                        <img src="images/team/trent.png" alt="Trent Bennett" />
+                        <div class="overlay-content text-center d-flex align-items-center justify-content-center">
+                            <div class="icon-social-small">
+                                <a href="https://github.com/tb-44" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/trent-bennett" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-overlay bg-deep-pink opacity8"></div>
+                    </div>
+                    <figcaption>
+                        <div class="team-member-position margin-20px-top text-center">
+                            <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">
+                                Trent Bennett
+                            </div>
+                            <div class="text-extra-small text-uppercase text-medium-gray">
+                                Software Engineer
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end team item -->
+            <div class="col-12 col-lg-3 col-md-6 team-block text-center team-style-1 md-margin-30px-bottom sm-margin-30px-bottom wow fadeInUp">
+                <figure>
+                    <div class="team-image sm-width-100">
+                        <img src="images/team/ty.jpg" alt="Ty Jensen" />
+                        <div class="overlay-content text-center d-flex align-items-center justify-content-center">
+                            <div class="icon-social-small">
+                                <a href="https://github.com/tjensen123" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/ty-jensen-55787b13a" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-overlay bg-deep-pink opacity8"></div>
+                    </div>
+                    <figcaption>
+                        <div class="team-member-position margin-20px-top text-center">
+                            <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">
+                                Ty Jensen
+                            </div>
+                            <div class="text-extra-small text-uppercase text-medium-gray">
+                                Software Engineer
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 team-block text-center team-style-1 md-margin-30px-bottom sm-margin-30px-bottom wow fadeInUp">
+                <figure>
+                    <div class="team-image sm-width-100">
+                        <img src="images/team/kris.jpg" alt="Kris Wolff" />
+                        <div class="overlay-content text-center d-flex align-items-center justify-content-center">
+                            <div class="icon-social-small">
+                                <a href="https://github.com/LimeSlice" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/kriswolff" 
+                                   class="text-white-2 text-white-2-hover"
+                                   target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-overlay bg-deep-pink opacity8"></div>
+                    </div>
+                    <figcaption>
+                        <div class="team-member-position margin-20px-top text-center">
+                            <div class="text-small font-weight-500 text-extra-dark-gray text-uppercase">
+                                Kris Wolff
+                            </div>
+                            <div class="text-extra-small text-uppercase text-medium-gray">
+                                Hardware Engineer
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end team section -->
+
+<!-- start gallery section -->
+<section id="gallery" class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- start filter nav -->
+                <ul class="portfolio-filter nav nav-tabs justify-content-center border-0 portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase margin-80px-bottom text-small md-margin-40px-bottom sm-margin-20px-bottom">
+                    <li class="nav active">
+                        <a href="javascript:void(0);" data-filter="*" class="light-gray-text-link text-very-small">
+                            All
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="javascript:void(0);" data-filter=".robot" class="light-gray-text-link text-very-small">
+                            Robot
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="javascript:void(0);" data-filter=".hardware" class="light-gray-text-link text-very-small">
+                            Embedded System
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="javascript:void(0);" data-filter=".software" class="light-gray-text-link text-very-small">
+                            Software
+                        </a>
+                    </li>
+                </ul>
+                <!-- end filter nav -->
+            </div>
+        </div>
+    </div>
+    <!-- start filter content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-3 p-md-0">
+                <div class="filter-content overflow-hidden">
+                    <ul class="portfolio-grid portfolio-metro-grid work-4col metro-gallery hover-option10 gutter-medium lightbox-portfolio">
+                        <li class="grid-sizer"></li>
+                        <!-- start item -->
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image1.jpg" alt="Mounting servo to 3D print #1" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Mounting servo to 3D print #1" href="images/gallery/image1.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- end item -->
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image2.jpg" alt="Mounting servo to 3D print #2" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Mounting servo to 3D print #2" href="images/gallery/image2.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image3.jpg" alt="Testing lidar functionality #1" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Testing lidar functionality #1" href="images/gallery/image3.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image4.jpg" alt="Testing lidar functionality #2" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Testing lidar functionality #2" href="images/gallery/image4.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image5.jpg" alt="Mounting the LIDAR to 3D print" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Mounting the LIDAR to 3D print" href="images/gallery/image5.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item robot wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image6.jpg" alt="Testing lidar functionality #3" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Testing lidar functionality #3" href="images/gallery/image6.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item hardware wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image7.png" alt="PCB design" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="PCB design" href="images/gallery/image7.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item hardware wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image8.png" alt="PCB solder paste stencil" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="PCB solder paste stencil" href="images/gallery/image8.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item hardware wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image9.jpg" alt="PCB boards ready to mount components" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="PCB boards ready to mount components" href="images/gallery/image9.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item hardware wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image10.jpg" alt="Positioning stencil on PCB" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Positioning stencil on PCB" href="images/gallery/image10.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item hardware wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image11.jpg" alt="Positioning components onto PCB" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="Positioning components onto PCB" href="images/gallery/image11.jpg">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item software wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image12.png" alt="LAMS scan of a room" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="LAMS scan of a room" href="images/gallery/image12.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item software wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image13.png" alt="LAMS scan of a box" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="LAMS scan of a box" href="images/gallery/image13.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item software wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image14.png" alt="3 different view modes of LAMS software (vertex, wireframe, solid)" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="3 different view modes of LAMS software (vertex, wireframe, solid)" href="images/gallery/image14.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item software wow zoomIn">
+                            <figure>
+                                <div class="portfolio-img bg-black">
+                                    <img src="images/gallery/image15.png" alt="LAMS software capabilities include importing full .obj files" />
+                                </div>
+                                <figcaption>
+                                    <div class="portfolio-hover-main">
+                                        <div class="portfolio-hover-box align-middle">
+                                            <div class="portfolio-icon">
+                                                <a class="gallery-link" title="LAMS software capabilities include importing full .obj files" href="images/gallery/image15.png">
+                                                    <i class="ti-zoom-in" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-2"></div>
-                <div class="col-sm-5 social">
-                    <ul>
+            </div>
+        </div>
+    </div>
+    <!-- end filter content -->
+</section>
+<!-- end gallery section -->
+
+<!-- start footer -->
+<footer class="footer-strip padding-50px-tb sm-padding-30px-tb">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3 text-center text-lg-left sm-margin-20px-bottom">
+                <a href="index.html">
+                    <img class="footer-logo" src="images/lams-logo@1x.png" data-rjs="images/lams-logo@2x.png" alt="LAMS" />
+                </a>
+            </div>
+            <div class="col-md-6 text-center text-small alt-font sm-margin-10px-bottom">
+                Copyright &copy; 2020 LAMS - University of Utah
+            </div>
+            <div class="col-md-3 text-center text-lg-right">
+                <div class="social-icon-style-8 d-inline-block vertical-align-middle">
+                    <ul class="small-icon mb-0">
                         <li>
-                            <a href="https://github.com/LAMS-UofU/LAMS-UofU.github.io" target="_blank">
-                                <i class="fa fa-github" aria-hidden="true"></i>
+                            <a class="documentation" href="assets/LAMS_final_report.pdf" target="_blank">
+                                <i class="fa fa-file-alt"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="github" href="https://github.com/LAMS-UofU" target="_blank">
+                                <i class="fab fa-github" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+<!-- end footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
+
+<!--scroll to top-->
+<a class="scroll-top-arrow" href="javascript:void(0);">
+    <i class="ti-arrow-up"></i>
+</a>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/bootsnav.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/page-scroll.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/jquery.count-to.js"></script>
+<script type="text/javascript" src="js/jquery.stellar.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/skill.bars.jquery.js"></script> 
+<script type="text/javascript" src="js/justified-gallery.min.js"></script>
+<script type="text/javascript" src="js/retina.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>
